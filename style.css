@@ -17,3 +17,7 @@ body {
 .yazi {
     margin-top: 220px; /* 100 piksel aşağı kaydırır */
 }
+img {
+    max-width: 100%; /* Görsel ekranı aşmaz */
+    height: auto; /* Oran bozulmaz */
+}
