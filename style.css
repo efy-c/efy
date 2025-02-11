@@ -1,0 +1,19 @@
+/* Sayfanın tamamını kaplayan arka plan resmi */
+body {
+    background-image: url("IMG_7394.JPG"); /* Resmin dosya yolunu buraya yaz */
+    background-size: cover; /* Resmi ekrana tam sığdır */
+    background-position: center; /* Ortaya hizala */
+    background-attachment: fixed; /* Sayfa kaydırıldığında arka plan sabit kalsın */
+    background-repeat: no-repeat; /* Resmi tekrar etme */
+    font-family: Arial, sans-serif; /* Yazı tipi */
+    color: white; /* Yazıları beyaz yap */
+    text-align: center; /* Metni ortala */
+    height: 100vh; /* Sayfanın tamamını kaplasın */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.yazi {
+    margin-top: 220px; /* 100 piksel aşağı kaydırır */
+}
